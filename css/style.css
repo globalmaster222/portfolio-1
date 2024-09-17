@@ -1,0 +1,143 @@
+/* zero styles */
+@import url(./обнуление.css);
+
+/* fonts */
+@import url(https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@font-face {
+   font-family: 'Rounds';
+   src: url(./../fonts/fonts/RoundsBlack.woff2);
+}
+@font-face {
+   font-family: 'Rubik Mono One';
+   src: url(./../fonts/rubik_mono_one/RubikMonoOne-Regular.woff2);
+}
+
+/* styles */
+body {
+   font-family: 'Rubik Mono One';
+   background: #000;
+}
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+}
+[class*='__container']{
+   max-width: 1230px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+.shell{
+   display: flex;
+   align-items: center;
+   border-radius: 30px;
+   background: #fff !important;
+   padding: 30px 30px;
+}
+.main__container {
+}
+.main {
+}
+
+
+/* greeting */
+.main__greeting {
+   padding: 20px 0px 20px 0px;
+}
+.greeting {
+}
+.greeting__content {
+   padding-top: 40px;
+   padding-bottom: 40px;
+}
+.greeting__title{
+   font-size: 32px;
+   font-weight: 800;
+   line-height: 130%;
+   letter-spacing: 0.02em;
+}
+
+/* about */
+
+.main__about {
+   
+}
+.about {
+   display: flex;
+   width: 100%;
+   
+}
+.about ul li{
+   border-radius: 25px;
+   font-size: 18px;
+}
+.about__contetn-characteristic {
+   flex: 0 0 50%;
+}
+.about__charateristic {
+}
+.about__character {
+}
+.about__character:not(:last-child){
+   margin-bottom: 0px;
+}
+.shell {
+}
+
+.about__content-skils {
+   flex: 0 0 50%;
+}
+.about__skils {
+}
+.about__skil {
+}
+.shell {
+}
+.second-title {
+   font-size: 20px !important;
+}
+
+/* contact */
+.main__contact {
+}
+.contact {
+   display: flex;
+   flex-direction: column;
+   margin-top: 30px;
+   width: 100%;
+}
+.contact a {
+   color: #000;
+}
+.contact__contact-content {
+}
+.contact__instagram {
+   display: flex;
+   justify-content: space-between;
+   font-size: 18px;
+}
+.contact__telegram {
+   display: flex;
+   justify-content: space-between;
+   font-size: 18px;
+}
+.contact__img-send{
+}
+.contact__telegram > img {
+   transition: .2s;
+}
+.contact__instagram > img {
+   transition: .2s;
+}
+ .contact__telegram:hover >img{
+   transform: rotate(-45deg);
+}
+ .contact__instagram:hover >img{
+   transform: rotate(-45deg);
+}
+.second-title {
+   font-size: 20px;
+}
+
